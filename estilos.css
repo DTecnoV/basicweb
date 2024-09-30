@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+#nombre-usuario {
+    color: #333;
+    font-size: 24px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.bio {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.intereses {
+    list-style-type: none;
+    padding: 0;
+}
+
+.intereses li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.boton-cool {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-cool:hover {
+    background-color: #45a049;
+}
